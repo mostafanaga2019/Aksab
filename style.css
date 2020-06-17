@@ -1,9 +1,4 @@
-/**
-  * Name: Ficon Finance & Consulting, Accounting HTML Template
-  * Version: 1.0
-  * Author: Themesflat
-  * Author URI: http://www.themesflat.com
- */
+
 
 @import url("https://fonts.googleapis.com/css?family=Cairo:300,400,600,700&display=swap&subset=arabic");
 
@@ -2634,6 +2629,9 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 }
 
 @media only screen and (max-width: 767px) {
+    .row-testimonials{
+        display: none
+    }
    
 	#top-bar .top-bar-content { display: none; }
 	#top-bar .top-bar-socials { display: block; width: 100%; text-align: center; }
