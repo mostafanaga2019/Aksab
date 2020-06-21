@@ -184,6 +184,13 @@
     box-shadow: -10px 10px 20px 0 rgba(0, 0, 0, 0.15);
     
 }
+.ourtools  .owl-item{
+    height: 180px!important;
+    width: auto!important;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .outerrow{
     overflow: hidden;
     width: 1270px;
