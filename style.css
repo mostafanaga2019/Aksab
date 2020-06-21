@@ -1361,6 +1361,95 @@ a.mydetails:hover{
 .serv-black:hover{
     color: #fff
 }
+.our-work{
+    padding: 30px;
+    
+}
+a.worktype{
+    background-color:none;
+    color: #fff;
+    padding: 5px 20px;
+    margin: 10px 10px 20px 10px;
+    display: inline-block;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+a.worktype:hover{
+    background-color:#fbe200;
+    border: 1px solid #fbe200;
+    color: #333;
+}
+.worktype.active-work{
+    background-color: #fbe200;
+    border: 1px solid #fbe200;
+    color: #fff;
+}
+.worktype.active-work:hover{
+    color: #333
+}
+
+
+.worlsample{
+   
+    padding: 10px;
+    cursor: pointer;
+    
+    
+    
+
+}
+.work-container{
+    height: 450px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;    
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    
+    
+}
+.worlsample img{
+   width: 90%;
+    transition: all 1s;
+}
+.worlsample img:hover{
+    width: 120%
+}
+.rel-flex{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;       
+    height: 180px;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    -webkit-clip-path: polygon(0 50% , 100% 0,100% 100%, 0% 100% );
+    clip-path: polygon(0 50% , 100% 0,100% 100%, 0% 100% );
+    
+}
+.rel-flex h3{
+    margin-top: 50px;
+    color: #fbe200;
+    font-size: 16px;
+}
+.rel-flex p{
+    color: #fff;
+    font-size: 12px;
+}
+.work-logo{
+    
+    width: 70px!important;
+    height: auto;
+    position: absolute;
+    right: 12%;
+    bottom: 70px;
+   
+}
+
 .rev_slider .themesflat-button.has-icon { padding-left: 15px; }
 .rev_slider .themesflat-button.has-icon > span > .icon { line-height: normal; padding-right: 13px; border-right: 1px solid rgba(255,255,255,0.3); font-size: 18px; position: absolute; left: 0; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%) }
 .rev_slider .themesflat-button.has-icon > span { padding-left: 54px; position: relative; display: inline-block; }
@@ -2423,6 +2512,9 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 -------------------------------------------------------------- */
 @media only screen and (min-width: 1200px) {
 	.container { width: 1210px; }
+    .work-container{
+        height: 550px;
+    }
     
 }
 
@@ -2477,6 +2569,12 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 	#site-header .mobile-button { display: block; }
     .header-style-2 #site-header .wrap-themesflat-container{
         padding: 13px 0;
+    }
+    .work-container{
+        height: 600px;
+    }
+    .selectedimg{
+        display: none;
     }
     .service-center{
         display: flex;        
